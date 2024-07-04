@@ -103,7 +103,29 @@ Verify the new user accounts:
 
 Log out of the server and try logging in with the new user accounts to ensure they are set up correctly.
 
- 
+
+## To install Git on your Ubuntu server, follow these steps:
+
+First, update the package list to ensure you have the latest information on the newest versions of packages and their dependencies. 
+sudo apt update
+Install Git:
+
+## After updating the package list,
+install Git using the apt package manager.
+
+sudo apt install git
+
+## Verify the Installation:
+
+Once Git is installed, you can verify the installation by checking the Git version.
+
+git --version
 
 
-ok
+## Complete Steps:
+Here are all the commands combined:
+
+
+sudo apt update
+sudo apt install git
+git --version
